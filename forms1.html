@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Registration form
+    </h1>
+    <form>
+        <label for="u_name">User name:</label>
+        <input type="text" id="u_name" placeholder="Enter Your Name" /><br>
+        <br>
+        <label for="p_word">password:</label>
+        <input type="password" id="p_word" placeholder="Enter Your password"><br>
+        <br>
+        <label for="email">Email:</label>
+        <input required type="text" id="email" placeholder="Enter Your Mail"><br>
+        <br>
+        <label for="male_gender">Select your gender:</label>
+        <input id="male_gender" type="radio" value="Male" name="gender"/>Male
+        <label for="female_gender"></label>
+        <input id="female_gender" type="radio" value="female" name="gender"/>Fe-Male  <br>
+        <br>
+        <label for="dob">Select your DOB:</label>
+        <input type="datetime-local" placeholder="DOB"><br>
+        <br>
+        <label for="mbl">Phone Num-1:</label>
+        <input type="tel" id="mbl" placeholder="Please enter a valid num" pattern="[0-9]{5}" /><br>
+        <br>
+        <label for="add">Mention your Address</label>
+        <textarea name="" id="" cols="20" rows="2"></textarea>
+        <br>
+        <br>
+        <label for="file">Choose a File</label>
+        <input id="file" type="file"><br>
+        <br>
+        <input type="submit" value="Reset">
+        <input type="submit" value="Register">
+        
+
+    </form>
+</body>
+</html>
